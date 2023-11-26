@@ -87,6 +87,8 @@ const animate = () => {
 const initializeApp = () => {
   //alert("Hello World");
 
+  let body1_h1 = document.querySelector(".body1_h1");
+
   gsap.to(line, {
     width: "100%",
     duration: 1,
@@ -99,10 +101,11 @@ const initializeApp = () => {
     scrollTrigger: {
       trigger: ".heroimagecnt",
       start: "top top",
-      end: "top+=81% top",
+      end: `bottom ${body1_h1.offsetHeight}`,
       pin: true,
       pinSpacing: false,
       scrub: 1,
+      markers: true
     },
   });
 

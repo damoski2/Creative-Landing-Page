@@ -105,7 +105,6 @@ const initializeApp = () => {
       pin: true,
       pinSpacing: false,
       scrub: 1,
-      markers: true
     },
   });
 

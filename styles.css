@@ -62,6 +62,7 @@ body {
   color: #fff;
   font-family: "Nunito", sans-serif;
   font-family: "Nunito Sans", sans-serif;
+  
 }
 
 nav {
@@ -141,7 +142,7 @@ nav a {
 .body1 {
   position: relative;
   top: 240px;
-  font-size: 95px;
+  font-size: 5.5vw;
   text-transform: uppercase;
   font-weight: bold;
 }

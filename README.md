@@ -25,4 +25,3 @@ Just playing around gsap - and yeah made it intentionally opensource 😉, enjoy
 
 
 # Be Sure to Leave a Star ⭐
-
